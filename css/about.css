@@ -1,0 +1,135 @@
+  body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        overflow-x: hidden;
+      }
+
+  header {
+        width: 100%;
+      }
+
+  header h1 {
+        position: relative;
+        left: -10000px;
+        height: 0;
+      }
+
+
+  header img {
+      width: 420px;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      z-index: 5;
+  }
+
+  nav {   position: relative;
+        top: -110px;
+        background: #a4dcac;
+        padding: 1em;
+      }
+
+  nav ul {
+        list-style: none;
+        padding: 0;
+        width: 990px;
+        margin: 0 auto;
+      }
+
+  nav ul li {
+        display: inline-block;
+        font-size: 1.5em;
+        margin-right: 4em;
+        white-space: nowrap;
+      }
+
+
+  nav ul li:nth-child(2) {
+     margin-right: 21em;
+
+      }
+
+
+  nav ul li:last-child {
+       margin-right: 0;
+      }
+
+  #bunches {
+    width: 60%;
+    height: 100%;
+
+  }
+
+  #text {
+    width: 32%;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: none;
+    margin-left: 0%;
+  }
+
+  p {
+    color: 512e0f;
+    font-size: 1.5em;
+  }
+
+  H1 {
+    color: 512e0f;
+    font-family: "Avenir", sans-serif;
+    font-size: 3.3em;
+  }
+
+
+
+
+
+
+
+
+
+
+  #twitter, #facebook {
+    width: 3%;
+    margin-left: 1%;
+  }
+
+
+  #tumblin {
+    width: 3.2%;
+    height: 6.2%;
+    margin-left: .8%;
+
+  }
+
+  footer {
+    clear:both;
+    width: 100%;
+    margin-right: 30%;
+    margin-left: 44%;
+
+  }
+
+  main {
+    margin-top: -5%;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #FFFFFF;
+  }
+
+  a:hover {
+    color: 512e0f;
+  }
