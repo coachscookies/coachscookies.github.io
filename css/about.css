@@ -1,7 +1,7 @@
   body {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
+        font-family: serif;
         overflow-x: hidden;
       }
 
@@ -56,16 +56,25 @@
       }
 
   #bunches {
-    width: 60%;
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+
+  }
+
+  #substitute {
+    width: 50%;
     height: 100%;
 
   }
+
 
   #text {
     width: 32%;
     position: relative;
     float: right;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
     margin-bottom: none;
     margin-left: 0%;
   }
@@ -90,18 +99,12 @@
 
 
 
-  #twitter, #facebook {
+  #twitter, #facebook, #tumblin {
     width: 3%;
     margin-left: 1%;
   }
 
 
-  #tumblin {
-    width: 3.2%;
-    height: 6.2%;
-    margin-left: .8%;
-
-  }
 
   footer {
     clear:both;
@@ -118,7 +121,9 @@
   }
 
 
-
+  #one, #two, #three, #four {
+    font-family: sans-serif;
+  }
 
 
   a:link {

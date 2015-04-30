@@ -1,7 +1,7 @@
   body {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
+        font-family: serif;
         overflow-x: hidden;
       }
 
@@ -97,18 +97,11 @@
 
 
 
-    #twitter, #facebook {
+    #twitter, #facebook, #tumblin {
       width: 3%;
       margin-left: 1%;
     }
 
-
-    #tumblin {
-      width: 3.2%;
-      height: 6.2%;
-      margin-left: .8%;
-
-    }
 
     footer {
       clear:both;
@@ -136,6 +129,11 @@
       padding-top: .5em;
       padding-left: .5em;
     }
+
+    #one, #two, #three, #four {
+      font-family: sans-serif;
+    }
+
 
 
     a:link {

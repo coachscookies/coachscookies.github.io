@@ -2,12 +2,13 @@
   body {
           margin: 0;
           padding: 0;
-          font-family: sans-serif;
+          font-family: serif;
           overflow-x: hidden;
         }
 
   header {
           width: 100%;
+          margin-top: -3%;
         }
 
   header h1 {
@@ -97,18 +98,12 @@
     margin-top: -25%;
   }
 
-  #twitter, #facebook {
+  #twitter, #facebook, #tumblin {
     width: 3%;
     margin-left: 1%;
   }
 
 
-  #tumblin {
-    width: 3.2%;
-    height: 6.2%;
-    margin-left: .8%;
-
-  }
 
   footer {
     clear:both;
@@ -125,7 +120,9 @@
         height: 100%;
       }
 
-
+      #one, #two, #three, #four {
+        font-family: sans-serif;
+      }
 
 
 
