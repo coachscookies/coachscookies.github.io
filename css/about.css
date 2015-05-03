@@ -64,7 +64,8 @@
 
   #substitute {
     width: 50%;
-    height: 100%;
+    height: 80%;
+    margin-top: 10%;
 
   }
 
@@ -74,7 +75,7 @@
     position: relative;
     float: right;
     margin-top: 5%;
-    margin-right: 10%;
+    margin-right: 13%;
     margin-bottom: none;
     margin-left: 0%;
   }

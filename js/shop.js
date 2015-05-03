@@ -15,7 +15,7 @@ $(function() {
 
   $(window).on("scroll", function() {
 
-    if ( $(window).scrollTop() > ($(document).height() - $("#prices").offset().top) ) {
+    if ( $(window).scrollTop() > ($(window).height() - $("#prices").offset().top) ) {
       $('ul#money').slideDown(800);
       $("li.dropdown").on("hover mouseover", function (){
        $(this).css("color", "#FFFFFF");
