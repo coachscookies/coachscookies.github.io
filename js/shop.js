@@ -25,8 +25,21 @@ $(function() {
       $(this).css("color", "#512e0f");
       });
 
-    } else {
+    } else if  ( $(window).scrollTop() < ($(window).height() - $("#prices").offset().top) ) {
       $("ul#money").slideUp(500);
+    }
+
+    else {
+      $("ul#money").show();
+      
+      $("li.dropdown").on("hover mouseover", function (){
+       $(this).css("color", "#FFFFFF");
+      });
+
+      $("li.dropdown").on("mouseout mouseup", function (){
+      $(this).css("color", "#512e0f");
+      });
+
     }
 
   });
